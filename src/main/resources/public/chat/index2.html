@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twilio Chat Quickstart</title>
+    <link rel="shortcut icon" href="//www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <nav>
+  <ul style="background-color: #333;list-style-type: none;margin: 0;padding: 0; overflow: hidden;">
+    <li style="float: left;"><img src="behance-logo-vector-download.png" width="100" height="50"></li>
+    <li style="float: right;"><img src="Adobe-logo-1.png" width="100" height="50"></li>
+    </ul>
+  </nav>
+  <section>
+
+      
+    
+    <div class="row">
+      <div id = "heading" class="heading"></div>
+      <table style="width:100%">
+        <tr>
+          <th style="width:60%">
+            <div id="livestream" class="livestream">
+                <iframe width="800" height="600" src="https://www.youtube.com/embed/0Va3_e-4bKE?autoplay=1">
+                </iframe>
+            </div>
+            <br><br>
+            <input id="chat-input" type="text" placeholder="say anything" autofocus/>
+          </th>
+          <th style="width:40%">
+            <table id="table2">
+              <tr>
+                <th>
+                  <div id="messages" class="messages"></div>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <div style="font-size:38; color:black"><b>Members</b></div>
+                  <div id="members" class="members"></div>
+                </th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </table>
+  </section>
+
+  <script src="https://media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+  <script src="https://media.twiliocdn.com/sdk/js/chat/v3.0/twilio-chat.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="chat2.js"></script>
+</body>
+</html>

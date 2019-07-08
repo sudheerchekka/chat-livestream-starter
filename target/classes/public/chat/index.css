@@ -1,0 +1,153 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%;
+  color:#dedede;
+  background-color: white;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+  width:100%;
+  position:absolute;
+  text-align:center;
+  bottom:20px;
+}
+
+header a, header a:visited {
+  font-size:18px;
+  color:#dedede;
+  text-decoration:none;
+}
+
+header a:hover {
+  text-decoration:underline;
+}
+
+table, th, td {
+  background-color: lightgray;
+  border-collapse: separate;
+  border: 1px gray;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+#table2{
+  border-spacing: 10px;
+}
+
+section {
+  height:70%;
+  background-color:white;
+}
+
+section input {
+  display:block;
+  height:52px;
+  width:800px;
+  margin:10px auto;
+  outline:none;
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid #2B2B2A;
+  padding:0;
+  font-size:42px;
+  color:#eee;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading {
+  color: green;
+  font-size:40px;
+  text-align:center;
+}
+
+.messages {
+  background-color:white;
+  padding:10px;
+  margin:0 auto;
+  overflow-y:auto;
+  float: left;
+}
+
+.messages .p {
+  margin:5px 0;
+  padding:0;
+}
+
+.members {
+  background-color:white;
+  padding:10px;
+  margin:0 auto;
+  overflow-y:auto;
+  float: left;
+}
+
+.members .p {
+  margin:5px 0;
+  padding:0;
+}
+
+.info {
+  margin:5px 0;
+  font-style:italic;
+}
+
+.message-container {
+  margin:5px 0;
+  color:#fff  ;
+}
+
+.message-container .username {
+  display:inline-block;
+  margin-right:5px;
+  font-weight:bold;
+  color:black;
+}
+
+.message-container .message {
+  color:black;
+  font-weight:normal;
+}
+
+.member-container .member {
+  color:black;
+  font-weight:normal;
+  display:inline-block;
+}
+
+.me, .username.me {
+  font-weight:bold;
+  color:blue;
+}
+
+.message.me {
+  color:blue;
+  font-weight:normal;
+}
+
+.message-container .username.me {
+  display:inline-block;
+  margin-right:5px;
+}
+
+.member.me {
+  color:blue;
+  font-weight:bold;
+}
