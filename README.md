@@ -110,3 +110,7 @@ ngrok http 4567
 
 ## License
 MIT
+
+## Running demo
+The demo is an attempt to mimic Behance livestream example (https://www.behance.net/videos/3e2b4eff-4f42-48a4-8b2c-8a86883ee06c/005)
+Run the application and navigate to http://localhost:4567/chat/index1.html for Chat user1 to join a general chat room  and navigate to http://localhost:4567/chat/index2.html in another tab to jon the same general chat room as Chat user2
